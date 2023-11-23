@@ -160,7 +160,7 @@ header > .contaner > ul {
   margin: 15px 25px;
   margin-right: 0px;
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   justify-content: left;
   vertical-align: baseline;
   align-items: center;
