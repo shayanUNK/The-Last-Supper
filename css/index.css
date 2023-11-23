@@ -192,6 +192,7 @@ button.toggle {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  width: 0;
 }
 
 #link-box > ul {
@@ -201,6 +202,7 @@ button.toggle {
   border-radius: 3px;
   height: 300px;
   width: 300px;
+  left: 128px;
   position: relative;
   top: 45px;
   padding: 0 10px;
@@ -255,6 +257,7 @@ button.toggle {
 }
 
 #grid-box > ul {
+  left: 250px;
   display: grid;
   grid-template-columns: repeat(2, 150px);
   grid-template-rows: repeat(8, 100px);
@@ -323,7 +326,7 @@ button.toggle {
   display: flex;
   flex-direction: column;
   align-items: center;
-
+left: 283px;
   border-radius: 3px;
   height: 400px !important;
   width: 300px !important;
@@ -355,7 +358,6 @@ button.toggle {
 
 #notif-box > ul > li > a {
   display: flex;
-  flex-direction: row-reverse;
   flex-wrap: wrap;
   text-decoration: none;
   color: #000000;
@@ -435,7 +437,7 @@ button.toggle {
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  left: 309px;
   border-radius: 3px;
   height: 400px !important;
   width: 300px !important;
@@ -459,7 +461,6 @@ button.toggle {
 
 #prof-box > ul > li > a {
   display: flex;
-  flex-direction: row-reverse;
   flex-wrap: wrap;
   text-decoration: none;
   color: #000000;
@@ -478,8 +479,13 @@ button.toggle {
 }
 #prof-box > ul > div {
   width: 300px;
-  height: 1px;
-  background-color: #000000;
+  padding: 0.5px ;
+  padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  height: 0.5px !important;
+  display:inline-block;
+  background-color: #585858;
 }
 /* finish */
 
