@@ -2,7 +2,7 @@
 ### 22 November
 
 
-<img src="image/image/تصویر صفحه 2023-11-22 155746.png">
+<img src="image/تصویر صفحه 2023-11-22 155746.png">
 
 ## developer :
 
