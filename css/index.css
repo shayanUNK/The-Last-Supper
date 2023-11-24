@@ -793,8 +793,11 @@ header > .humbergerMenu{
 height: 151vh;
   }
 
-.humbergerMenu{
-  display: block;
+header > .humbergerMenu{
+  display: block !important;
+}
+.togglemob {
+  display: flex !important;
 }
 .main-nav{
   display: none;
@@ -802,9 +805,7 @@ height: 151vh;
 .humbergerMenu > #mobil-box >  .main-nav{
   display: block;
 }
-.togglemob {
-  display: flex;
-}
+
 .togglemob > img {
   position: fixed;
   width: 30px;
