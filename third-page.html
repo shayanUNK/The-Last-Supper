@@ -7,21 +7,319 @@
     <title>پروفایل کاربر - پروژه‌ها | فرست - قالب مدیریت بوت‌استرپ</title>
     <link rel="stylesheet" href="css/third-page.css">
     <link rel="icon" href="">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body style="direction: rtl;">
-    <!-- header -->
-    <!-- /header -->
-    <!-- aside menu -->
-    <!-- /aside menu -->
+    <header>
+        <div class="contaner">
+            <ul>
+                <li>
+                    <button class="toggle">
+                        <div class="image"></div>
+                    </button>
+
+                    <div id="prof-box">
+                        <ul>
+                            <li><a href="">
+                                    <div class="image"></div>جان اسنو <br> مدیر
+                                </a></li>
+                            <div></div>
+                            <li><a href=""><img src="image/user-128.png" alt="">پروفایل من</a></li>
+                            <li><a href=""><img src="image/settings-svgrepo-com.svg" alt="">تنظیمات</a></li>
+                            <li><a href=""><img src="image/card-svgrepo-com.svg" alt="">صورت حساب ها</a></li>
+                            <div></div>
+                            <li><a href=""><img src="image/headphone-svgrepo-com.svg" alt="">راهنمایی</a></li>
+                            <li><a href=""><img src="image/problem-management-backup-svgrepo-com.svg" alt="">سوالات
+                                    متداول</a></li>
+                            <li><a href=""><img src="image/money-svgrepo-com.svg" alt="">قیمت گذاری</a></li>
+                            <div></div>
+                            <li><a href=""><img src="image/off-svgrepo-com.svg" alt="">خروج</a></li>
+                        </ul>
+                </li>
+                <li>
+                    <button class="toggle"><img src="image/bell-svgrepo-com.svg" alt=""></button>
+
+                    <div id="notif-box">
+                        <ul>
+                            <li id="headr"><a href=""><img src="image/massage-svgrepo-com.svg" alt=""><span>اعلان
+                                        ها</span></a></li>
+                            <div></div>
+                            <li><a href=""><img src="image/1.png" alt="">پیام جدید از جین <br> شما پیام جدید از طرف جین
+                                    دارید</a></li>
+                            <li><a href=""><img src="image/girl.png" alt="">پیام جدید از لالا <br>شما پیام جدید از طرف
+                                    لالا دارید</a></li>
+                            <li><a href=""><img
+                                        src="image/3d-red-wrong-mark-icon-square-isolated-pink-background-cross-symbol-blot-ban-icon-wrong-rejection-incorrect-disapproval-against-refusal-3d-minimal-rendering-illustration_473922-477.avif"
+                                        alt="">میزان مصرف CPU بالاست <br>مصرف بالای cpu</a></li>
+                            <div></div>
+                            <li id="footr"><a href="">مشاهده‌ی همه ی اعلان ها</a></li>
+                        </ul>
+                </li>
+
+                <li>
+                    <button class="toggle"><img src="image/grid.svg" alt=""></button>
+
+                    <div id="grid-box">
+                        <ul>
+                            <li><a href="#"><img src="image/chat-svgrepo-com.svg" alt="">برنامه صورت حساب</a></li>
+
+                            <li><a href="#"><img src="image/actions-download.svg" alt="">تقویم</a></li>
+
+                            <li><a href="#"><img src="image/1658642.png" alt="">مدیریت نقش ها</a></li>
+
+                            <li><a href="#"><img src="image/user-128.png" alt="">برنامه کاربر</a></li>
+
+                            <li><a href="#"><img src="image/settings-svgrepo-com.svg" alt="">تنظیمات</a></li>
+
+                            <li><a href="#"><img src="image/dashboard-671-svgrepo-com.svg" alt="">داشبورد</a></li>
+
+                            <li><a href="#"><img src="image/setup-modal-svgrepo-com.svg" alt="">مودال ها</a></li>
+
+                            <li><a href="#"><img src="image/problem-management-backup-svgrepo-com.svg" alt="">مرکز
+                                    راهنمایی</a></li>
+                        </ul>
+
+
+                </li>
+
+                <li><input type="checkbox" id="dark-mode">
+                    <label class="dark-mode"></label>
+                    <div class="background"></div>
+                </li>
+                <li>
+                    <button class="toggle">
+                        <div class="iran"></div>
+                    </button>
+                    <div id="link-box">
+                        <ul>
+                            <li><a href="#"><img src="image/svgexport-1.svg" alt=""></a>فارسی</li>
+                            <li><a href="#"><img src="image/Flag_of_the_United_Kingdom_Square.svg.png"
+                                        alt=""></a>انگلیسی</li>
+                            <li><a href="#"><img src="image/Flag_of_France.svg.png" alt=""></a>فرانسوی</li>
+                            <li><a href="#"><img src="image/Flag_of_Germany.svg.png" alt=""></a>آلمانی</li>
+                            <li><a href="#"><img src="image/Flag_of_Portugal.svg.png" alt=""></a>پرتقال</li>
+                        </ul>
+                </li>
+            </ul>
+            <div class="search">
+                <img src="image/search-svgrepo-com (1).svg" alt="">
+                <input type="text" placeholder="جستوجو کنید(ctrl+/)">
+            </div>
+        </div>
+
+        <div class="humbergerMenu">
+            <button class="togglemob"><img src="image/menu-svgrepo-com.svg" alt=""></button>
+
+            <div id="mobil-box">
+                <nav class="main-nav">
+                    <ul>
+                        <li id="headmen"><a href="#" class="logo"><img src="image/آیکن.svg" alt=""><span
+                                    id="ferst">فرست</span></a></li>
+                        <li><a href="#"><img src="image/house-top-icon-png-0.png" alt=""><span>داشبورد ها </span></a>
+                        </li>
+                        <li><a href="#"><img src="image/508198-200.png" alt=""><span>طرح ها </span> </a></li>
+                        <p class="title">برنامه‌ها و صفحات</p>
+                        <div class="line"></div>
+                        <li><a href="#"><img src="image/email.svg" alt=""> <span>ایمیل </span></a></li>
+                        <li><a href="#"><img src="image/chat-svgrepo-com.svg" alt=""><span>گفتوگو </span> </a></li>
+                        <li><a href="#"><img src="image/3572423.png" alt=""> <span>تقویم </span></a></li>
+                        <li><a href="#"><img src="image/grid.svg" alt=""><span>تخته وظایف </span> </a></li>
+                        <li><a href="#"><img src="image/650257-200.png" alt=""> <span>صورتحساب </span></a></li>
+                        <li><a href="#"><img src="image/user-128.png" alt=""> <span>کاربران </span></a></li>
+                        <li><a href="#"><img src="image/1658642.png" alt=""> <span>نقش‌ها و مجوز‌ها </span></a></li>
+                        <li><a href="#"><img src="image/1880842-200.png" alt=""> <span>صفحات </span></a>
+                            <ul id="profile">
+                                <li><a href=""><img src="image/circle-xxxs-svgrepo-com.svg" alt="">پروفایل کاربر</a>
+                                    <ul>
+                                        <li><a href=""><img src="image/circle-xxxs-svgrepo-com.svg" alt=""> پروفایل</a>
+                                        </li>
+                                        <li><a href=""><img src="image/circle-xxxs-svgrepo-com.svg" alt="">تیم</a></li>
+                                        <li><a href=""><img src="image/circle-xxxs-svgrepo-com.svg" alt="">پروژه</a>
+                                        </li>
+                                        <li><a href=""><img src="image/circle-xxxs-svgrepo-com.svg" alt="">اتصالات</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><img src="image/user-check-2.png" alt=""><span>احراز هویت </span> </a></li>
+                        <li><a href="#"><img src="image/free-news-471-861784.png" alt=""> <span>نمونه های چند مرحله‌ای
+                                </span></a></li>
+                        <li><a href="#"><img src="image/actions-download.svg" alt=""><span>نمونه‌های مودال </span> </a>
+                        </li>
+                        <p class="title">فرم‌ها و جدول‌ها</p>
+                        <div class="line"></div>
+                        <li><a href="#"><img src="image/259552.png" alt=""><span>کارت </span> </a></li>
+                        <li><a href="#"><img src="image/414511-200.png" alt=""><span>رابط کاربری </span> </a></li>
+                        <li><a href="#"><img src="image/papers.png" alt=""><span>رابط کاربری توسعه یافته </span> </a>
+                        </li>
+                        <li><a href="#"><img src="image/king-crown-svgrepo-com.svg" alt=""> <span>آیکون ها </span></a>
+                        </li>
+                        <p class="title">نمودار‌ها و نقشه‌ها</p>
+                        <div class="line"></div>
+                        <li><a href="#"><img src="image/pnews.png" alt=""> <span>المان‌های فرم </span></a></li>
+                        <li><a href="#"><img src="image/pnews.png" alt=""><span>طرح‌های فرم </span> </a></li>
+                        <li><a href="#"><img src="image/emblem-documents-svgrepo-com.svg" alt=""><span>فرم مرحله‌ای
+                                </span>
+                            </a></li>
+                        <li><a href="#"><img src="image/valid-document-svgrepo-com.svg" alt=""> <span>اعتبار سنجی فرم
+                                </span></a></li>
+                        <li><a href="#"><img src="image/table-cells-svgrepo-com.svg" alt=""><span>جدول‌ها </span> </a>
+                        </li>
+                        <li><a href="#"><img src="image/table-top-header-svgrepo-com.svg" alt=""> <span>جدول‌های داده
+                                </span></a></li>
+                        <p class="title">متفرقه</p>
+                        <div class="line"></div>
+                        <li><a href="#"><img src="image/chart-alt-svgrepo-com.svg" alt=""> <span>نمودار ها </span></a>
+                        </li>
+                        <li><a href="#"><img src="image/map-svgrepo-com.svg" alt=""> <span>نقشه‌های Leaflet </span></a>
+                        </li>
+                        <p class="title">برنامه‌ها و صفحات</p>
+                        <div class="line"></div>
+                        <li><a href="#"><img src="image/headphone-svgrepo-com.svg" alt=""><span>پشتیبانی </span> </a>
+                        </li>
+                        <li><a href="#"><img src="image/document-svgrepo-com.svg" alt=""> <span>مستندات </span></a></li>
+                    </ul>
+                </nav>
+                <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+                <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+            </div>
+        </div>
+        <!------------------- header ---------------------->
+
+    </header>
+    <!---------------- side bar ---------------------------->
+    <nav class="main-nav">
+        <ul>
+            <li id="headmen"><a href="#" class="logo"><img src="image/آیکن.svg" alt=""><span id="ferst">فرست</span></a>
+            </li>
+            <li><a href="#"><img src="image/house-top-icon-png-0.png" alt=""><span>داشبورد ها </span></a></li>
+            <li><a href="#"><img src="image/508198-200.png" alt=""><span>طرح ها </span> </a></li>
+            <p class="title">برنامه‌ها و صفحات</p>
+            <div class="line"></div>
+            <li><a href="#"><img src="image/email.svg" alt=""> <span>ایمیل </span></a></li>
+            <li><a href="#"><img src="image/chat-svgrepo-com.svg" alt=""><span>گفتوگو </span> </a></li>
+            <li><a href="#"><img src="image/3572423.png" alt=""> <span>تقویم </span></a></li>
+            <li><a href="#"><img src="image/grid.svg" alt=""><span>تخته وظایف </span> </a></li>
+            <li><a href="#"><img src="image/650257-200.png" alt=""> <span>صورتحساب </span></a></li>
+            <li><a href="#"><img src="image/user-128.png" alt=""> <span>کاربران </span></a></li>
+            <li><a href="#"><img src="image/1658642.png" alt=""> <span>نقش‌ها و مجوز‌ها </span></a></li>
+            <li><a href="#"><img src="image/1880842-200.png" alt=""> <span>صفحات </span></a>
+                <ul id="profile">
+                    <li><a href=""><img src="image/circle-xxxs-svgrepo-com.svg" alt="">پروفایل کاربر</a>
+                        <ul>
+                            <li><a href=""><img src="image/circle-xxxs-svgrepo-com.svg" alt=""> پروفایل</a></li>
+                            <li><a href=""><img src="image/circle-xxxs-svgrepo-com.svg" alt="">تیم</a></li>
+                            <li><a href=""><img src="image/circle-xxxs-svgrepo-com.svg" alt="">پروژه</a></li>
+                            <li><a href=""><img src="image/circle-xxxs-svgrepo-com.svg" alt="">اتصالات</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#"><img src="image/user-check-2.png" alt=""><span>احراز هویت </span> </a></li>
+            <li><a href="#"><img src="image/free-news-471-861784.png" alt=""> <span>نمونه های چند مرحله‌ای </span></a>
+            </li>
+            <li><a href="#"><img src="image/actions-download.svg" alt=""><span>نمونه‌های مودال </span> </a></li>
+            <p class="title">فرم‌ها و جدول‌ها</p>
+            <div class="line"></div>
+            <li><a href="#"><img src="image/259552.png" alt=""><span>کارت </span> </a></li>
+            <li><a href="#"><img src="image/414511-200.png" alt=""><span>رابط کاربری </span> </a></li>
+            <li><a href="#"><img src="image/papers.png" alt=""><span>رابط کاربری توسعه یافته </span> </a></li>
+            <li><a href="#"><img src="image/king-crown-svgrepo-com.svg" alt=""> <span>آیکون ها </span></a></li>
+            <p class="title">نمودار‌ها و نقشه‌ها</p>
+            <div class="line"></div>
+            <li><a href="#"><img src="image/pnews.png" alt=""> <span>المان‌های فرم </span></a></li>
+            <li><a href="#"><img src="image/pnews.png" alt=""><span>طرح‌های فرم </span> </a></li>
+            <li><a href="#"><img src="image/emblem-documents-svgrepo-com.svg" alt=""><span>فرم مرحله‌ای </span> </a>
+            </li>
+            <li><a href="#"><img src="image/valid-document-svgrepo-com.svg" alt=""> <span>اعتبار سنجی فرم </span></a>
+            </li>
+            <li><a href="#"><img src="image/table-cells-svgrepo-com.svg" alt=""><span>جدول‌ها </span> </a></li>
+            <li><a href="#"><img src="image/table-top-header-svgrepo-com.svg" alt=""> <span>جدول‌های داده </span></a>
+            </li>
+            <p class="title">متفرقه</p>
+            <div class="line"></div>
+            <li><a href="#"><img src="image/chart-alt-svgrepo-com.svg" alt=""> <span>نمودار ها </span></a></li>
+            <li><a href="#"><img src="image/map-svgrepo-com.svg" alt=""> <span>نقشه‌های Leaflet </span></a></li>
+            <p class="title">برنامه‌ها و صفحات</p>
+            <div class="line"></div>
+            <li><a href="#"><img src="image/headphone-svgrepo-com.svg" alt=""><span>پشتیبانی </span> </a></li>
+            <li><a href="#"><img src="image/document-svgrepo-com.svg" alt=""> <span>مستندات </span></a></li>
+        </ul>
+    </nav>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-------------------- side bar ------------------->
     <!-- user profile banner -->
+    <section class="banner-fa">
+        <div class="banner">
+            <div class="upper-banner">
+                <img class="profile-banner-img" src="image/profile-banner.png" alt="">
+            </div>
+            <div class="down-banner">
+                <div class="down-right-banner">
+                    <img class="profile-user-img" src="image/profile user.png" alt=""></img>
+                </div>
+                <div class="down-left-banner">
+                    <div class="down-left-banner-text">
+                        <h4>جان اسنو</h4>
+                        <ul class="list-of-autor">
+                            <li>
+                                <i class='bx bx-pen'></i>
+                                طراح ux
+
+                            </li>
+                            <li>
+                                <i class='bx bx-map'></i>
+                                شهر تبریز
+
+                            </li>
+                            <li>
+
+                                <i class='bx bx-calendar-alt'></i>
+                                عضویت در فروردین
+                                ۱۴۰۰
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <a href="">
+                        <i class='bx bx-user-check'></i>
+                        متصل
+
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
     <!-- /user profile banner -->
     <!-- navbar pills -->
     <!-- /navbar pills -->
     <!-- project cards -->
     <!-- /project cards -->
     <!-- footer -->
-    <!-- /footer -->
+    <footer class="footer-fa">
+        <div class="footer-so">
+            <div class="right-footer">
+
+                طراحی شده با ❤️ ارائه شده در وب‌سایت
+
+                <a href="">راست‌چین</a>
+            </div>
+            <div class="left-footer">
+                <div><span><a class="gray1" href="">لایسنس</a></span></div>
+                <div><span><a class="gray1" href="">قالب‌های بیشتر</a></span></div>
+                <div><span><a class="gray1" href="">مستندات</a></span></div>
+                <div><span><a class="gray1" href="">پشتیبانی</a></span></div>
+            </div>
+        </div>
+    </footer>
+<!-- /footer -->
 
 </body>
 
