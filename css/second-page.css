@@ -157,17 +157,27 @@
  
   /* footer */
   
-  .footer-fa {
-    width: 100%;
-  }
-  
-  .footer-so {
-    width: inherit;
-    padding: 2• 0px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    bottom: 0;
-  }
-  
+ 
+.footer-fa {
+  width: 100%;
+}
+
+.footer-so {
+  width: inherit;
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  bottom: 0;
+}
+.left-footer {
+  display: flex;
+
+  gap: 35px;
+}
+
+.gray1 {
+  color: #39495c;
+}
+
   /* /footer */

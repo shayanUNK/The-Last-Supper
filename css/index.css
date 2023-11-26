@@ -1324,6 +1324,38 @@ small {
   font-weight: 600;
 }
 
+.red {
+  padding: 4px 8px;
+  background-color: rgb(247, 181, 181);
+  border-radius: 5px;
+  font-size: 12px;
+  color: red;
+}
+
+.light-blue {
+  padding: 4px 6px;
+  background-color: rgb(119, 239, 239);
+  border-radius: 5px;
+  font-size: 12px;
+  color: #009dff;
+}
+
+.blue {
+  padding: 4px 8px;
+  background-color: #bbdff5;
+  border-radius: 5px;
+  font-size: 12px;
+  color: rgb(0, 42, 255);
+}
+
+.gray {
+  padding: 4px 8px;
+  background-color: #d6d6d6;
+  border-radius: 5px;
+  font-size: 12px;
+  color: #39495c;
+}
+
 /* ******************************  bitween-double-project ***************************** */
 .project-box-fa {
   width: 725px;
@@ -1371,7 +1403,6 @@ table {
   background-color: #e1e1e1;
 
 }
-
 .l1 {
   position: absolute;
   top: 70px;
@@ -1379,32 +1410,33 @@ table {
 
 .l2 {
   position: absolute;
-  top: 210px;
+  top: 225px;
+  height: .5px;
 }
 
 .l3 {
   position: absolute;
-  top: 300px;
+  top: 310px;
 }
 
 .l4 {
   position: absolute;
-  top: 390px;
+  top: 400px;
 }
 
 .l5 {
   position: absolute;
-  top: 480px;
+  top: 490px;
 }
 
 .l6 {
   position: absolute;
-  top: 570px;
+  top: 580px;
 }
 
 .l7 {
   position: absolute;
-  top: 660px;
+  top: 670px;
 }
 
 thead {
@@ -1508,6 +1540,8 @@ th {
 
 .border-img {
   display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 progress {
@@ -1551,6 +1585,25 @@ progress::-webkit-progress-value {
 .test2 {
   padding: 0px 20px;
 }
+.nn {
+  padding: 5px 10px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+}
+
+.n {
+  padding: 7px 16px;
+ background-color: #d1d1d1;
+ border-radius: 5px;
+}
+
+.n1 {
+  padding: 12px 20px;
+  background-color: #009dff;
+  border-radius: 5px;
+  color: white;
+}
+
 
 /* ***************************** image-user-profile-content  *************************** */
 
@@ -1661,11 +1714,20 @@ progress::-webkit-progress-value {
 
 .footer-so {
   width: inherit;
-  padding: 2• 0px;
+  padding: 25px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   bottom: 0;
+}
+.left-footer {
+  display: flex;
+
+  gap: 35px;
+}
+
+.gray1 {
+  color: #39495c;
 }
 
 /* /footer */
