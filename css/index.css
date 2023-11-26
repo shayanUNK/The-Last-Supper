@@ -1536,8 +1536,9 @@ th {
 
 .ul-foo {
   display: flex;
+  align-items: center;
+  gap: 5px;
 }
-
 .border-img {
   display: flex;
   align-items: center;
