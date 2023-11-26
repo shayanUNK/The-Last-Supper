@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+  
+    font-family: yekan;
+    line-height: 1.85;
+  }
+  @font-face {
+    font-family: yekan;
+    src: url('../fonts/iranyekanweblightfanum.ttf')
+  }
+  
+  @font-face {
+    font-family: yekanB;
+    src: url('../fonts/iranyekanwebextraboldfanum.ttf')
+  }
+  body{background-color: rgb(196, 196, 196);}
+/* ************   user profil content   ************ */
+
+.banner-fa {
+    width: 100%;
+    /* margin-top: 100px; */
+    height: 385px;
+  
+  }
+  
+  .banner {
+  
+    width: 1100px;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    margin: 10% auto;
+    transform: translateX(-50px);
+  
+  
+  
+  
+  }
+  
+  .upper-banner {
+    width: 100%;
+    height: 250px;
+    z-index: 1;
+    /* border: 1px solid red; */
+  }
+  
+  .profile-banner-img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .down-banner {
+    width: 100%;
+    height: 135px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 0 8px 8px;
+  }
+  
+  .down-left-banner {
+    width: 930px;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    /* align-items: end; */
+    /* border: 2px solid rgb(24, 239, 8); */
+  }
+  
+  .down-left-banner a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 35px;
+    text-decoration: none;
+    padding: 20px 55px;
+  
+    border-radius: 5px;
+    background-color: #0371f8;
+    color: white;
+    margin-top: 75px;
+    margin-right: 75px;
+    font-size: 16px;
+    font-weight: 800;
+    opacity: .7;
+    transition: box-shadow .3s, opacity .3s;
+  }
+  
+  .down-left-banner a:hover {
+  
+    box-shadow: 0rem 0.125rem .55rem .180rem rgba(54, 57, 61, 0.4);
+    opacity: .6;
+  }
+  
+  .down-left-banner-text {
+    width: 700px;
+    /* height: 150px; */
+    /* border:2px solid #0371f8; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    margin-right: 25px;
+    /* margin-bottom: 5px; */
+  }
+  
+  .down-left-banner-text h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #303d4d;
+  }
+  
+  .down-left-banner-text ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+  
+  }
+  
+  .list-of-autor li {
+    font-size: 15px;
+    font-weight: 900;
+    color: #626f7c;
+    /* border: 1px solid red; */
+  
+  }
+  
+  .bx-user-check {
+    margin-left: 5px;
+    font-size: 18px;
+  
+  }
+  
+  .down-right-banner {
+    /* border: 3px solid blue; */
+    width: 170px;
+    z-index: 2;
+    margin-top: -35px;
+  
+  }
+  
+  .profile-user-img {
+    width: 120px;
+    border: 5px solid white;
+    border-radius: 5px;
+    margin-right: 50px;
+  }
+  
+  /* /user profile banner */
+ 
+  /* footer */
+  
+  .footer-fa {
+    width: 100%;
+  }
+  
+  .footer-so {
+    width: inherit;
+    padding: 2• 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    bottom: 0;
+  }
+  
+  /* /footer */
