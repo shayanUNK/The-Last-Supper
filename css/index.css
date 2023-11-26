@@ -912,11 +912,15 @@ header>.humbergerMenu {
 
 /* ************   user profil content   ************ */
 
+.up-baner{display: flex;
+  width: 1000px;
+margin: 0 auto;
+top: 1000px;}
 .banner-fa {
   width: 100%;
   /* margin-top: 100px; */
   height: 385px;
-
+z-index: -999;
 }
 
 .banner {
@@ -925,7 +929,7 @@ header>.humbergerMenu {
   height: inherit;
   display: flex;
   flex-direction: column;
-  margin: 10% auto;
+  margin: 5% auto;
   transform: translateX(-50px);
 
 
