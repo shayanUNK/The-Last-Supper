@@ -37,14 +37,14 @@
   font-family: yekanB;
   src: url('../fonts/iranyekanwebextraboldfanum.ttf')
 }
-body{background-color: rgb(196, 196, 196);}
+body{background-color: rgb(227, 226, 226);}
 
 /* finish */
 
 /* start header style */
 
 /* start dark mode */
-label {
+.dark-mode{
   position: relative;
   width: 28px;
   height: 15px;
@@ -56,7 +56,7 @@ label {
     inset 0px -5px 15px rgba(255, 255, 255, 0.3);
 }
 
-label:after {
+.dark-mode:after {
   content: "";
   position: absolute;
   height: 12px;
@@ -94,7 +94,7 @@ input:checked+label+.background {
   background: #242424;
 }
 
-input {
+#dark-mode{
   display: none;
 }
 
