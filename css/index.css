@@ -696,9 +696,9 @@ background: #e3e2e2;
 
 #headmen {
   position:sticky;
-  top: 0;
-  background-color: #f3f4f4 !important;
-  top: 0;
+  top: 0 !important;
+  background-color: rgb(227, 226, 226);
+
 }
 
 #ferst {
@@ -988,12 +988,13 @@ margin: 4% auto;
   display: flex;
   flex-direction: column;
   margin: 11% 4.6%;
+  z-index: -1;
 }
 
 .upper-banner {
   width: 100%;
   height: 250px;
-  z-index: ;
+  z-index:0 ;
   /* border: 1px solid red; */
 }
 
@@ -1089,7 +1090,7 @@ margin: 4% auto;
 .down-right-banner {
   /* border: 3px solid blue; */
   width: 170px;
-  /* z-index: 1; */
+  z-index: 1;
   margin-top: -35px;
 
 }
@@ -1234,7 +1235,7 @@ small {
 
 .profile-content {
   width: 1000px;
-  height: ;
+
   margin: 5% auto;
   display: flex;
   flex-direction: row;
@@ -1288,6 +1289,7 @@ small {
   background-color: white;
   border-radius: 5px;
   position: relative;
+  z-index: -1;
 }
 
 .activity-time-so {}
@@ -1505,6 +1507,7 @@ small {
   border-radius: 5px;
   margin-top: 30px;
   position: relative;
+  z-index: -1;
 
 }
 
