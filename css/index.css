@@ -190,6 +190,7 @@ header {
 header>.contaner>ul>li>a>img {
   width: 25px;
   height: 26px;
+  vertical-align: middle;
 }
 
 header>.contaner>ul {
