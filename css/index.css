@@ -595,6 +595,11 @@ nav>ul>li>a {
 
 ul {
   list-style: none;
+
+}
+
+.main-menu > ul {
+  overflow-y: scroll;
 }
 
 .main-nav {
@@ -608,14 +613,16 @@ ul {
   transform: translate3d(0, 0, 0) !important;
   transition: width 0.3s;
   overflow: hidden;
-  height: 69.50vw;
+  height: 46.50vw;
   border-left: 1px solid rgb(216, 215, 215);
+  position: fixed;
+  left: 0;
 }
 
-.line {
-  width: 30px;
-  height: 1px;
-  background-color: #8f8f8f;
+.line1 {
+  width: 20px;
+  height: 1.20px;
+  background-color: #2c2b2b;
   margin: 10px auto;
 }
 
@@ -627,7 +634,7 @@ ul {
   width: 250px;
   box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
   border-left: none;
-}
+  overflow-y:scroll ;}
 
 .main-nav:hover .line {
   display: none;
@@ -647,11 +654,11 @@ ul {
 }
 
 .main-menu {
-  overflow: hidden;
+  overflow: scroll;
 }
 
 .main-nav:hover::-webkit-scrollbar {
-  overflow: auto;
+  overflow:scroll;
   -webkit-overflow-scrolling: touch !important;
   border-radius: 10px;
   width: 2px;
@@ -675,7 +682,8 @@ ul {
 }
 
 #headmen {
-  position: sticky;
+  position:sticky;
+  top: 0;
   background-color: #f3f4f4 !important;
   top: 0;
 }
@@ -685,6 +693,8 @@ ul {
   letter-spacing: -0.45px;
   color: #5a8dee;
   font-family: "secondary-font", "primary-font", "segoe ui", "tahoma";
+
+
 }
 
 .main-nav>ul>li>#profile {
@@ -727,6 +737,7 @@ ul {
 
 .main-nav>ul>li>#profile>li:hover ul {
   display: block;
+
 }
 
 .main-nav>ul>li>#profile>li>ul>li {
@@ -876,10 +887,10 @@ header>.humbergerMenu {
   }
 
   .main-nav {
-    display: none;
+    display: none !important;
   }
 
-  .humbergerMenu>#mobil-box>.main-nav {
+  .humbergerMenu> #mobil-box>.main-nav {
     display: block;
   }
 
@@ -915,6 +926,7 @@ header>.humbergerMenu {
     width: 32%;
   }
 }
+
 
 /* ************   user profil content   ************ */
 .up-baner {
@@ -1851,10 +1863,4 @@ progress::-webkit-progress-value {
   color: #39495c;
 }
 
-.h6last {
-  color: #303d4d;
-  font-size: 18px;
-  font-weight: 800;
-}
 
-/* /footer */
