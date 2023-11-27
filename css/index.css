@@ -180,6 +180,10 @@ header {
   flex-direction: row-reverse;
   align-items: center;
   justify-content: space-between;
+  background: #f3f4f4;
+  position: fixed;
+   top: 0;
+   z-index:1;
 
 }
 
@@ -617,6 +621,8 @@ ul {
   border-left: 1px solid rgb(216, 215, 215);
   position: fixed;
   left: 0;
+   z-index:1;
+  background: #f3f4f4;
 }
 
 .line1 {
