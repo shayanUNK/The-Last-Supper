@@ -37,14 +37,17 @@
   font-family: yekanB;
   src: url('../fonts/iranyekanwebextraboldfanum.ttf')
 }
-body{background-color: rgb(227, 226, 226);}
+
+body {
+  background-color: rgb(227, 226, 226);
+}
 
 /* finish */
 
 /* start header style */
 
 /* start dark mode */
-.dark-mode{
+.dark-mode {
   position: relative;
   width: 28px;
   height: 15px;
@@ -94,7 +97,7 @@ input:checked+label+.background {
   background: #242424;
 }
 
-#dark-mode{
+#dark-mode {
   display: none;
 }
 
@@ -146,6 +149,8 @@ input:checked+label+.background {
   background-position: center center;
   background-size: cover;
   margin-left: 10px;
+  z-index: 9999;
+
 }
 
 .iran {
@@ -175,6 +180,7 @@ header {
   flex-direction: row-reverse;
   align-items: center;
   justify-content: space-between;
+
 }
 
 header>.contaner>ul>li>a>img {
@@ -923,32 +929,58 @@ header>.humbergerMenu {
 
 
 /* ************   user profil content   ************ */
+.up-baner {
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+  z-index: -1;
+}
+
+.dovom {
+  position: absolute;
+  display: flex;
+  width: 1000px;
+  margin: 0 auto;
+  bottom:-90px;
+  left: 3px;
+  gap: 10px;
+}
+
+.yeki {
+  font-size: 20px;
+}
 
 .banner-fa {
-  width: 100%;
-  /* margin-top: 100px; */
-  height: 385px;
 
+  width: 100%;
+  height: 385px;
+  z-index: -999;
+  
 }
 
 .banner {
-
   width: 1100px;
   height: inherit;
   display: flex;
   flex-direction: column;
-  margin: 10% auto;
-  transform: translateX(-50px);
+margin: 4% auto;
 
 
 
+}
 
+.help {
+  width: 1100px;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  margin: 11% 4.6%;
 }
 
 .upper-banner {
   width: 100%;
   height: 250px;
-  z-index: 1;
+  z-index: ;
   /* border: 1px solid red; */
 }
 
@@ -1044,7 +1076,7 @@ header>.humbergerMenu {
 .down-right-banner {
   /* border: 3px solid blue; */
   width: 170px;
-  z-index: 2;
+  /* z-index: 1; */
   margin-top: -35px;
 
 }
@@ -1057,6 +1089,90 @@ header>.humbergerMenu {
 }
 
 /* /user profile banner */
+/* *********   navbar pill       *********** */
+
+#navpill {
+  width: 100%;
+  height: 70px;
+  margin-top: 110px;
+}
+
+#navpill>.contaneier {
+  width: 1150px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+#navpill>.contaneier>#row {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#navpill>.contaneier>#row>ul {
+  width: 50%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+#navpill>.contaneier>#row>ul>li {
+  width: 68px;
+  height: 20px;
+  list-style: none;
+  padding: 10px;
+}
+
+#navpill>.contaneier>#row>ul>li>a>img {
+  width: 20px;
+  height: 20px;
+  margin-left: 0.35rem !important;
+}
+
+#navpill>.contaneier>#row>ul>li>a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  font-weight: 500;
+  line-height: 18.4px;
+  font-size: 18.4px;
+  font-family: "boxicons" !important;
+  font-style: normal;
+  color: #516377;
+  vertical-align: middle;
+  width: 150px;
+  height: 50px;
+}
+
+#navpill>.contaneier>#row>ul>li:hover a {
+  background-color: #5a8dee;
+  color: #fff;
+  box-shadow: 0 0.125rem 0.25rem rgba(147, 158, 170, 0.4);
+  width: 150px;
+  height: 60px;
+  border-radius: 5px;
+
+}
+
+#navpill>.contaneier>#row>ul>li~a:visited {
+  background-color: #5a8dee;
+  color: #fff;
+  box-shadow: 0 0.125rem 0.25rem rgba(147, 158, 170, 0.4);
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+/* *********   /navbar pill       *********** */
 /***************************** user profile content *************************/
 .profile-content-fa {
   width: 100%;
@@ -1415,6 +1531,7 @@ table {
   background-color: #e1e1e1;
 
 }
+
 .l1 {
   position: absolute;
   top: 70px;
@@ -1551,6 +1668,7 @@ th {
   align-items: center;
   gap: 5px;
 }
+
 .border-img {
   display: flex;
   align-items: center;
@@ -1598,6 +1716,7 @@ progress::-webkit-progress-value {
 .test2 {
   padding: 0px 20px;
 }
+
 .nn {
   padding: 5px 10px;
   background-color: #e0e0e0;
@@ -1606,8 +1725,8 @@ progress::-webkit-progress-value {
 
 .n {
   padding: 7px 16px;
- background-color: #d1d1d1;
- border-radius: 5px;
+  background-color: #d1d1d1;
+  border-radius: 5px;
 }
 
 .n1 {
@@ -1733,6 +1852,7 @@ progress::-webkit-progress-value {
   justify-content: space-between;
   bottom: 0;
 }
+
 .left-footer {
   display: flex;
 
@@ -1743,4 +1863,4 @@ progress::-webkit-progress-value {
   color: #39495c;
 }
 
-/* /footer */
+
